@@ -1,0 +1,73 @@
+.container {
+  width: 75%;
+  margin: 0 auto;
+}
+
+.anchor {
+  position: absolute;
+  transform: translateY(-30vh);
+}
+
+.title {
+  font-size: 34px;
+  font-weight: lighter;
+  margin-bottom: 60px;
+}
+
+.aboutUs p {
+  display: block;
+  font-size: 20px;
+  font-weight: lighter;
+  line-height: 30px;
+  margin-bottom: 30px;
+}
+
+.text_content {
+  margin-bottom: 80px;
+}
+
+.block {
+  height: 94px;
+  background-color: #ffa019;
+  margin: 0 auto;
+}
+
+.content {
+  display: grid;
+  grid-template-columns: 0.6fr 1.4fr;
+  gap: 80px;
+}
+
+.content > p {
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+  width: 300px;
+  margin-top: 10px;
+}
+
+form {
+  display: Flex;
+  align-items: center;
+  gap: 20px;
+}
+
+form > input {
+  width: 29%;
+  border: 1px solid white;
+  padding: 10px 20px;
+  color: white;
+}
+
+form > input::placeholder {
+  color: white;
+}
+
+form > button {
+  width: 29%;
+  padding: 10px 20px;
+  border: 1px solid white;
+  background-color: white;
+  font-size: 14px;
+  font-weight: bold;
+}

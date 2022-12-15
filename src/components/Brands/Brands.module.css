@@ -1,0 +1,22 @@
+.brands_section {
+  padding-bottom: 80px;
+}
+
+.anchor {
+  position: absolute;
+  transform: translateY(-30vh);
+}
+
+.brands_list {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #fbfbfb;
+  min-height: 194px;
+}
+
+.brand_item {
+  font-size: 50px;
+  font-weight: bold;
+  color: #9b9b9b;
+}

@@ -1,0 +1,62 @@
+.consultants_section {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.container {
+  width: 75%;
+  margin: 0 auto;
+}
+
+.anchor {
+  position: absolute;
+  transform: translateY(-30vh);
+}
+.title {
+  font-size: 34px;
+  font-weight: lighter;
+}
+
+.cards_list {
+  margin-top: 60px;
+  display: flex;
+  gap: 40px;
+}
+
+.cards_item {
+  background-color: #fbfbfb;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 33%;
+}
+
+.cards_item > img {
+  height: 100%;
+}
+
+.text_content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin-left: 15%;
+}
+
+.name {
+  font-size: 20px;
+}
+
+.desc {
+  font-style: italic;
+  font-size: 12px;
+}
+
+.button {
+  font-size: 10px;
+  font-weight: bold;
+  border-radius: 10px;
+  background-color: #ffa019;
+  padding: 7px 10px;
+  color: white;
+  margin-top: 20px;
+}
