@@ -6,19 +6,11 @@ import arrow from './img/arrow.svg'
 import advantagesList from './advantages_list'
 const Advantages = () => {
   return (
-    <section>
+    <>
       <div className={styles.container}>
         <div className={styles.advantages}>
           <span className={styles.anchor} id="advantages_id"></span>
           <h2 className={styles.title}>Наши преимущества</h2>
-          <div className={styles.arrow_buttons}>
-            <button>
-              <img className={styles.arrow_left} src={arrow} alt="" />
-            </button>
-            <button>
-              <img className={styles.arrow_right} src={arrow} alt="" />
-            </button>
-          </div>
         </div>
         <div>
           <ul className={styles.advantages_list}>   
@@ -31,7 +23,7 @@ const Advantages = () => {
           </ul>
         </div>
       </div>
-    </section>
+    </>
   );
 }
 

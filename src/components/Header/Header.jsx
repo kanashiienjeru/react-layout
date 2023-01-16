@@ -2,7 +2,7 @@ import styles from './Header.module.css'
 
 const Header = () => {
   return (
-    <div>
+    <header>
       <div className={styles.container}>
         <div className={styles.overheader}>
           <div className={styles.overheader_content}>
@@ -57,7 +57,7 @@ const Header = () => {
           <button className={styles.button}>В КАТАЛОГ</button>
         </div>
       </section>
-    </div>
+    </header>
   );
 }
 export default Header

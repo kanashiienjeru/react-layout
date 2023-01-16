@@ -3,7 +3,6 @@ import categories from './categories'
 import products from './products'
 
 const Catalog = () => {
-  console.log(categories)
   return (
     <section className={styles.catalog_section}>
       <span className={styles.anchor} id="catalog_id"></span>
